@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title> The Game Buyers </title>
+    <link rel="icon" type="image/png" href="img/Game_Buyers_Logo.png">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <header class="pags">
+                <a href="index.html"> Home </a>
+                <a href="sobre_nos.html"> Sobre Nós </a>
+                <a href="produtos.html"> Produtos </a>
+                <a href="cadastro.html"> Comentários </a>
+                <a href="contato.html"> Contato </a>
+            </header> <br> <br>
+
+            <div class="featured">
+                <p> Coloque nos campos a seguir um comentário seu a respeito do nosso serviço! </p> <br> <br>
+
+                <form id="comment_form" class="comment_form">
+                    <input type="text" class="text_box" id="username" placeholder="Nome do Usuário" required> <br> <br>
+
+                    <input type="text" class="text_box" id="comment" placeholder="Seu comentário..." required> <br> <br>
+
+                    <button type="submit" class="button_form"> Enviar </button> <br> <br>
+                </form>
+
+                <div class="table_wrap">
+                    <table class="comment_table">
+                        <thead>
+                            <tr>
+                                <th> Nome de Usuário </th>
+                                <th> Comentário </th>
+                            </tr>
+                        </thead>
+
+                        <tbody id="comment_list">
+                            <!-- Região onde os produtos vão ser listados -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>  
+    </main>
+
+    <footer class="footer">
+            <p>
+            Miguel Silva Sampaio <br>
+            2º INFO <br>
+            2026
+            </p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

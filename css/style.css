@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Silkscreen:wght@400;700&display=swap');
+
+body
+{
+    font-family: "Inter", sans-serif;
+    background-color: rgb(61, 66, 73);
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main
+{
+    flex: 1;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.title
+{
+    font-family: "Silkscreen", sans-serif;
+    justify-self: center;
+    font-size: 75px;
+    color: rgb(227, 243, 2);
+}
+
+.intro
+{
+    background-color: rgb(45, 107, 199);
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 20px 15px 10px;
+    justify-self: center;
+}
+
+.pags
+{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(214, 214, 214);
+    justify-content: center;
+}
+
+a
+{
+    margin: 15px;
+    padding: 10px;
+}
+
+.intro p
+{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.featured
+{
+    background-color: white;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 20px 15px 10px;
+}
+
+.featured p
+{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.prod
+{
+    padding: 25px;
+    background-color: rgb(45, 107, 199);
+    width: 150px;
+    height: 400px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prod img
+{
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.prod p
+{
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
+
+.prod_featured
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.footer
+{
+    background-color: rgb(255, 255, 82);
+    padding: 30px;
+}
+
+.sub_title
+{
+    color: rgb(227, 243, 2);
+    font-size: 50px;
+}
+
+.button
+{
+    background-color: orange;
+    border-radius: 50px;
+    outline: 3px solid white;
+    outline-offset: 2px;
+    transition: transform 0.2s ease;
+    margin-top: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.button:hover
+{
+    transform: scale(1.1);
+}
+
+.button p
+{
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+    margin: 8px 0;
+}
+
+.logo
+{
+    width: 200px;
+    height: 200px;
+    animation: girar 5s linear infinite;
+}
+
+@keyframes girar {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.insta_logo
+{
+    width: 120px;
+    height: 120px;
+}
+
+.twitter_logo
+{
+    width: 150px;
+    height: 120px;
+}
+
+.comment_form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 1.25rem;
+}
+
+.text_box
+{
+    padding: 20px;
+    border-radius: 15px;
+    border: 3px solid #ccc;
+    font-size: 14px;
+    width: 280px;
+    outline: none;
+}
+
+.text_box:focus
+{
+    border-color: #378ADD;
+    box-shadow: 0 0 0 3px rgba(55, 138, 221, 0.2);
+}
+
+.button_form
+{
+    padding: 10px 24px;
+    border-radius: 30px;
+    background-color: #378ADD;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+}
+
+.button_form:hover
+{
+    background-color: #185FA5;
+}
+
+.table_wrap
+{
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.comment_table
+{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.comment_table th
+{
+    text-align: left;
+    padding: 10px 16px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #555;
+    background: #f7f7f7;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.comment_table td
+{
+    padding: 10px 16px;
+    border-bottom: 1px solid #f0f0f0;
+}
